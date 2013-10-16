@@ -4,6 +4,28 @@ Colors:
 #7A2A5D Secondary: Purple
 #FD3D10 Tertiary: Hot Orange
 */
+body {
+	background: url("../img/wild_flowers.png");
+	font-family: 'Allerta', sans-serif;
+	}
+
+h1 {
+	color: #FD3D10;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-shadow: 	1px 2px 3px #DDEEFF,
+               		0 0 0 black,
+               		-1px 1px 0 #DDEEFF,
+               		1px 1px 0 white;
+	}
+	
+h3 {
+	color: #7A2A5D;
+	}
+
+img {
+	box-shadow: 0 0 20px #88CDB1
+	 }
 
 header{
 	
@@ -13,7 +35,3 @@ nav {
 	
 	}
 	
-body {
-	background: url("../img/wild_flowers.png");
-	font-family: 'Allerta', sans-serif;
-	}
