@@ -1,5 +1,9 @@
 /* Stylesheet */
 
-body {
-	background: red;
+#hearder{
+	background: blue;
+	}
+
+#nav {
+	background: green;
 	}
