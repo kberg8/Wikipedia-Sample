@@ -1,9 +1,19 @@
-/* Stylesheet */
+/* 
+Colors:
+#88CDB1 Primary: Seafoam Blue/Green
+#7A2A5D Secondary: Purple
+#FD3D10 Tertiary: Hot Orange
+*/
 
-#hearder{
-	background: blue;
+header{
+	
 	}
 
-#nav {
-	background: green;
+nav {
+	
+	}
+	
+body {
+	background: url("../img/wild_flowers.png");
+	font-family: 'Allerta', sans-serif;
 	}
