@@ -1,37 +1,45 @@
 /* 
-Colors:
-#88CDB1 Primary: Seafoam Blue/Green
-#7A2A5D Secondary: Purple
-#FD3D10 Tertiary: Hot Orange
+Color Palette
+1st #CBD5BD, light  green
+2nd #3C2E2D, darker brown
+3rd #FF849E, accent color pink
 */
-body {
-	background: url("../img/wild_flowers.png");
-	font-family: 'Allerta', sans-serif;
-	}
 
-h1 {
-	color: #FD3D10;
-	font-size: 48px;
+body {
+	background: url("../img/bg.png");
+	font-family: 'Allerta', sans-serif;
+}
+
+h1, h3 {
+	color: #CBD5BD;
 	text-transform: uppercase;
-	text-shadow: 	1px 2px 3px #DDEEFF,
-               		0 0 0 black,
-               		-1px 1px 0 #DDEEFF,
-               		1px 1px 0 white;
-	}
-	
+	border-bottom: 10px solid black;
+}
+
 h3 {
-	color: #7A2A5D;
-	}
+	padding: 0 0 10px 0;
+}
 
 img {
-	box-shadow: 0 0 20px #88CDB1
-	 }
+   box-shadow: 0 0 20px #666;
+}
 
-header{
-	
-	}
+.dropcap {
+	font-size: 72px;
+	color: #FF849E;
+	float: left;
+	margin: 10px;
+}
 
-nav {
-	
-	}
-	
+
+.container_12 {
+	background: rgba(255,255,255,.45);
+}
+
+
+
+
+/* Helper Classes */
+.showgrid {
+	background: url("../img/12_col.gif") !important;
+}
